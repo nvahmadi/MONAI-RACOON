@@ -32,7 +32,7 @@ Arguments
         Print this help.  
 ```
 
-For example, simply running `sh run_monailabel_server.sh` will start a MONAI Label server with `monaibundle` app which can be used to run inference on models from the [MONAI Model Zoo](https://github.com/Project-MONAI/model-zoo) (by default: `wholeBody_ct_segmentation`).
+For example, simply running `sh run_monailabel_server.sh` will start a MONAI Label server with `monaibundle` app which can be used to run inference with various models from the [MONAI Model Zoo](https://github.com/Project-MONAI/model-zoo) (by default: `wholeBody_ct_segmentation`).
 You can change models with the `-m <modelname>` startup parameter, feel free to try the following models:
 * [`lung_nodule_ct_detection`](https://github.com/Project-MONAI/model-zoo/tree/dev/models/lung_nodule_ct_detection)
 * [`pancreas_ct_dints_segmentation`](https://github.com/Project-MONAI/model-zoo/tree/dev/models/pancreas_ct_dints_segmentation)
